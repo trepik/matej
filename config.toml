@@ -1,0 +1,183 @@
+# Page settings
+
+baseurl = "https://repik.sk/matej/"
+languageCode = "en-us"
+title = "Matej's CV"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Career profile"
+    author = "Matej Repík"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Matej Repík"
+        tagline = "Physicits"
+        avatar = "profile.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "location"
+        icon = "fa-home"
+        url = "https://goo.gl/maps/6gFmW6i9JaC2"
+        title = "Bratislava, Slovakia"
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: matej.repik@gmail.com"
+        title = "matej.repik@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+421902360625"
+        title = "+421 902 360 625"
+
+#        [[params.contact.list]]
+#        class = "website"
+#        icon = "fa-globe"
+#        url = "//portfoliosite.com"
+#        title = "portfoliosite.com"
+
+#        [[params.contact.list]]
+#        class = "github"
+#        icon = "fa-github"
+#        url = "//github.com/trepik"
+#        title = "github.com/trepik"
+
+    # Languages section
+    [params.languages]
+        enable = true
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "Slovak"
+        level = "Native"
+
+        [[params.languages.list]]
+        language = "Czech"
+        level = "Proffesional"
+
+        [[params.languages.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.languages.list]]
+        language = "German"
+        level = "Intermediate"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Science"
+
+        [[params.interests.list]]
+        interest = "History"
+
+        [[params.interests.list]]
+        interest = "Playing drums"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "I just finished high school with excellent grades in all final exams."
+
+    # Education section
+    [params.education]
+        enable = true
+        icon = "fa-graduation-cap"
+        title = "Education"
+
+
+        [[params.education.list]]
+        degree = "Slovak high school with final graduation"
+        college = "United School Tilgnerova"
+        dates = "2009-2018"
+
+        [[params.education.list]]
+        degree = "Graduated from"
+        college = "American International School Vienna"
+        dates = "2016-2017"
+
+        [[params.education.list]]
+        degree = "Three completed years at"
+        college = "The Baylor School - Chattanooga"
+        dates = "2013 - 2016"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Junior Tester"
+        dates = "2017 - present"
+        company = "Instarea, Bratislava"
+        details = "Reporting bugs is my main task."
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+#        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+#        [[params.projects.list]]
+#        title = "Maxpoweleague"
+#        url = "https://www.maxpowerleague.cz"
+#        tagline = "Since 2008 I had been part of the online racing community around rFactor racing simulator. Ever since I joined I participated in organization of the events. I wrote reports, managed our website and result system, cut video reports and commented on live broadcasts."
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Data visualization tools (PowerBI)"
+        level = "90%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
